@@ -4,7 +4,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Colore sfondo e style scrittura */
 body {
-    background-color: aqua;
+    background-color: rgb(228, 223, 223);
+    font-family: Arial, sans-serif;
+}
+
+/* Colore contenitore e sposto gli elementi */
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+/* Metto gli elementi in linea e alliniati */
+figure,
+h1 {
+    display: inline;
+    vertical-align: middle;
+}
+
+/* Grossessa Titolo */
+h1{
+    font-weight: 800;
 }
