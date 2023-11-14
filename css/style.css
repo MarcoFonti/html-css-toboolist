@@ -7,7 +7,7 @@
 
 /* Colore sfondo e style scrittura */
 body {
-    background-color: rgb(228, 223, 223);
+    background-color: rgb(235, 235, 235);
     font-family: Arial, sans-serif;
 }
 
@@ -15,6 +15,7 @@ body {
 header {
     background-color: rgb(255, 255, 255);
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 /* Metto gli elementi in linea e alliniati */
@@ -34,9 +35,10 @@ h1{
 .container-button {
     height: 80px;
     max-width: 920px;
-    margin: 40px auto;
+    margin: 0 auto;
     background-color: rgb(255, 255, 255);
     line-height: 80px; 
+    border-radius: 10px 10px 0 0;
 }
 
 /* Creo le similitudini tra i due bottoni */
@@ -44,7 +46,7 @@ h1{
     border-radius: 5px;
     text-decoration: none;
     vertical-align: middle;
-    padding: 10px 15px;
+    padding: 5px 15px;
     font-size: 20px;  
 }
 
@@ -59,4 +61,89 @@ h1{
 .button-white {
     border: 1px solid rgb(152, 147, 147);
     color: rgb(152, 147, 147);
+}
+
+/* Contenitore Sezione contenuto */
+.container-section {
+    max-width: 920px;
+    margin: 3px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+/* Titolo Liste */
+h2 {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+/* Genitore Lista */
+ul{
+    list-style: none;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* Figli della Lista */
+li {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+/* Dimensionamento di True e False */
+.color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%; 
+    margin-right: 5px;
+}
+
+/* Colore del True */
+.true {
+    color: rgb(0, 225, 0);
+    border: 1px solid rgb(0, 225, 0);
+}
+
+/* Colore del False*/
+.false {
+    color: rgb(225, 0, 0);
+    border: 1px solid rgb(225, 0, 0);
+}
+
+/* Testo interno degli Span */
+.text-clear {
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: rgb(255, 255, 255)
+}
+
+/* Colori */
+.blu {
+    background-color: rgb(0, 145, 255);
+}
+
+.purple {
+    background-color: rgb(97, 8, 180);
+}
+
+.aqua {
+    background-color: rgb(2, 148, 123);
+}
+
+.orange {
+    background-color: rgb(255, 204, 0);
+}
+
+.rose {
+    background-color: rgb(218, 130, 194);
+}
+
+.green {
+    background-color: rgb(94, 185, 69);
 }
