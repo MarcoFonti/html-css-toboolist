@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Colore sfondo e style scrittura */
 body {
     background-color: rgb(228, 223, 223);
@@ -26,4 +27,36 @@ h1 {
 /* Grossessa Titolo */
 h1{
     font-weight: 800;
+}
+
+/* Faccio in modo che il mio contenitor-button non si espandi 
+    e accentro il suo contenuto */
+.container-button {
+    height: 80px;
+    max-width: 920px;
+    margin: 40px auto;
+    background-color: rgb(255, 255, 255);
+    line-height: 80px; 
+}
+
+/* Creo le similitudini tra i due bottoni */
+.button {
+    border-radius: 5px;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 10px 15px;
+    font-size: 20px;  
+}
+
+/* Bottono blu */ 
+.button-blu {
+    background-color: rgb(48, 168, 238);
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+
+/* Bottone bianco */ 
+.button-white {
+    border: 1px solid rgb(152, 147, 147);
+    color: rgb(152, 147, 147);
 }
