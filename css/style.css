@@ -13,21 +13,24 @@ body {
 
 /* Colore contenitore e sposto gli elementi */
 header {
+    height: 90px;
     background-color: rgb(255, 255, 255);
-    padding: 10px;
-    margin-bottom: 40px;
+    line-height: 90px;
+    margin-bottom: 30px;
 }
 
-/* Metto gli elementi in linea e alliniati */
-figure,
-h1 {
-    display: inline;
+/* Logo */
+#logo {
+    padding-left: 15px;
     vertical-align: middle;
 }
 
-/* Grossessa Titolo */
-h1{
+/* h1 in linea con il logo */
+h1 {
+    display: inline;
     font-weight: 800;
+    vertical-align: middle;
+    font-size: 40px;
 }
 
 /* Faccio in modo che il mio contenitor-button non si espandi 
@@ -37,7 +40,7 @@ h1{
     max-width: 920px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    line-height: 80px; 
+    line-height: 80px;
     border-radius: 10px 10px 0 0;
 }
 
@@ -48,6 +51,7 @@ h1{
     vertical-align: middle;
     padding: 5px 15px;
     font-size: 20px;  
+    border: 1px solid currentColor;
 }
 
 /* Bottono blu */ 
@@ -59,7 +63,6 @@ h1{
 
 /* Bottone bianco */ 
 .button-white {
-    border: 1px solid rgb(152, 147, 147);
     color: rgb(152, 147, 147);
 }
 
@@ -80,16 +83,20 @@ h2 {
 }
 
 /* Genitore Lista */
-ul{
+ul {
     list-style: none;
-    font-size: 20px;
-    line-height: 20px;
+    padding-top: 10px;
 }
 
 /* Figli della Lista */
 li {
-    padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+} 
+
+/* Dimensioni Text della Lista */
+.text {
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 /* Dimensionamento di True e False */
@@ -100,6 +107,9 @@ li {
     text-align: center;
     border-radius: 50%; 
     margin-right: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
 /* Colore del True */
@@ -120,7 +130,8 @@ li {
     padding: 5px 10px;
     margin-left: 5px;
     font-size: 12px;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
 }
 
 /* Colori */
